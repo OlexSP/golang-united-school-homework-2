@@ -23,7 +23,7 @@ const (
 func CalcSquare(sideLen float64, sidesNum sidesAmount) float64 {
 	switch sidesNum {
 	case Circle:
-		return math.Pi * math.Pow(sideLen, 2)
+		return math.Pi * math.Pow(sideLen, 2) / 2
 	case Triangle:
 		return (math.Sqrt(3.0) / 4.0 * math.Pow(sideLen, 2))
 	case Square:
