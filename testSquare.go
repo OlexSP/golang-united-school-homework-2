@@ -2,6 +2,8 @@ package square
 
 import (
 	"testing"
+
+	"github.com/stretchr/testify/require"
 )
 
 func TestCalcSqaureCustom(t *testing.T) {
